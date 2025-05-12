@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "✅ Commit je bil uspešno izveden ob $(date)" >> commit_log.txt
