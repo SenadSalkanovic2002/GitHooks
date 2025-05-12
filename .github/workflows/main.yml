@@ -1,0 +1,52 @@
+name: CI workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  linux-test:
+    runs-on: ubuntu-latest
+    name: Testiranje na Linux okolju
+    steps:
+      - name: Kloniranje repozitorija
+        uses: actions/checkout@v3
+
+      - name: Namestitev odvisnosti
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8
+
+      - name: Statična analiza
+        run: flake8 main.py
+
+      - name: Shranjevanje rezultatov analize
+        run: flake8 main.py > analysis.txt
+      - name: Nalaganje artefakta
+        uses: actions/upload-artifact@v3
+        with:
+          name: analiza-lin
+          path: analysis.txt
+
+  windows-test:
+    runs-on: windows-latest
+    name: Testiranje na Windows okolju
+    steps:
+      - name: Kloniranje repozitorija
+        uses: actions/checkout@v3
+
+      - name: Namestitev odvisnosti
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8
+
+      - name: Preverjanje kode
+        run: flake8 main.py
+
+      - name: Shrani izhod
+        run: flake8 main.py > result.txt
+      - name: Nalaganje artefakta
+        uses: actions/upload-artifact@v3
+        with:
+          name: analiza-win
+          path: result.txt
