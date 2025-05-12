@@ -2,8 +2,8 @@
 echo "Zaganjam flake8 preverjanje..."
 flake8 main.py
 if [ $? -ne 0 ]; then
-  echo "❌ Koda ni ustrezno oblikovana – commit zavrnjen."
+  echo "Fail Koda ni ustrezno oblikovana – commit zavrnjen."
   exit 1
 fi
-echo "✅ Preverjanje uspešno – commit dovoljen."
+echo "OK Preverjanje uspešno – commit dovoljen."
 exit 0

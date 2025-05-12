@@ -3,10 +3,10 @@ MSG_FILE=$1
 MSG=$(head -n1 "$MSG_FILE")
 
 if [[ ! "$MSG" =~ ^(FIX|FEAT|DOCS|TEST|CHORE): ]]; then
-  echo "❌ Commit sporočilo mora začeti z eno od ključnih besed: FIX, FEAT, DOCS, TEST, CHORE:"
+  echo "Fail Commit sporočilo mora začeti z eno od ključnih besed: FIX, FEAT, DOCS, TEST, CHORE:"
   echo "Primer: FIX: popravi hrošča v funkciji za izpis"
   exit 1
 fi
 
-echo "✅ Commit sporočilo ustreza pravilom."
+echo "OK Commit sporočilo ustreza pravilom."
 exit 0
