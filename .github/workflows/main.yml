@@ -23,7 +23,7 @@ jobs:
       - name: Shranjevanje rezultatov analize
         run: flake8 main.py > analysis.txt
       - name: Nalaganje artefakta
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: analiza-lin
           path: analysis.txt
@@ -46,7 +46,7 @@ jobs:
       - name: Shrani izhod
         run: flake8 main.py > result.txt
       - name: Nalaganje artefakta
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: analiza-win
           path: result.txt
