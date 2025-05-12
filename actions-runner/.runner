@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "SENAD",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus14.actions.githubusercontent.com/hZSaElmMbImhC8FHDY2LAuX8xYbjIlKtxIoQG7c52WMG2J3hyA/",
+  "gitHubUrl": "https://github.com/SenadSalkanovic2002/GitHooks",
+  "workFolder": "GitHooks"
+}
