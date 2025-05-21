@@ -49,4 +49,17 @@ jobs:
         with:
           name: analiza-win
           path: result.txt
-     
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout kodo
+        uses: actions/checkout@v3
+
+      - name: Build Docker image
+        run: docker build -t githooks-analyzer .
+
+      - name: Run tests inside Docker
+        run: docker run --rm githooks-analyzer pytest
+
+
