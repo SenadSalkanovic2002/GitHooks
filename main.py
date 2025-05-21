@@ -10,7 +10,7 @@ def merge_sort(arr):
 
     return merge(left, right)
 
-def merge(left, right):
+def  merge(left, right):
     result = []
     i = j = 0
 
@@ -27,7 +27,7 @@ def merge(left, right):
     return result
 
 # primer klica
-if __name__ == "__main__":
+if  __name__ == "__main__":
     sample = [5, 2, 9, 1, 5, 6]
     print("Pred:", sample)
     print("Po sortiranju:", merge_sort(sample))

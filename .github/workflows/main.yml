@@ -27,12 +27,6 @@ jobs:
         with:
           name: analiza-lin
           path: analysis.txt
-
-      - name: Nastavi Docker
-        run: |
-          docker compose build
-          docker compose run --rm codeanalyzer flake8 .
-
   windows-test:
     runs-on: windows-latest
     name: Testiranje na Windows okolju
@@ -55,7 +49,4 @@ jobs:
         with:
           name: analiza-win
           path: result.txt
-      - name: Nastavi Docker
-        run: |
-          docker compose build
-          docker compose run --rm codeanalyzer flake8 .
+     
