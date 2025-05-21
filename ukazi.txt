@@ -1,0 +1,16 @@
+# 1. Ustvari sliko iz Dockerfile
+docker image build -t analyzer .
+
+# 2. Poženi samo analyzer kontejner
+docker container run --rm -it --name analyzer_container analyzer
+
+# 3. Poženi oba kontejnerja s pomočjo Docker Compose
+docker compose up
+
+# 4. Ustavi in odstrani vse kontejnerje
+docker compose down
+
+# 5. Preveri nameščena orodja znotraj kontejnerja
+docker container exec -it code_analyzer flake8 --version
+docker container exec -it code_analyzer pytest --version
+docker container exec -it code_analyzer python -m line_profiler

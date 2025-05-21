@@ -1,8 +1,8 @@
 #!/bin/bash
-flake8 main.py
-if [ $? -ne 0 ]; then
-  echo "Fail Koda ni ustrezno oblikovana – commit zavrnjen."
-  exit 1
-fi
-echo "OK Preverjanje uspešno – commit dovoljen."
-exit 0
+#!/bin/bash
+echo "🛠️ Zagon statične analize preko Docker..."
+
+docker compose run --rm codeanalyzer flake8 . || {
+    echo "❌ Napaka pri statični analizi"
+    exit 1
+}

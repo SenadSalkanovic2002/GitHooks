@@ -1,0 +1,10 @@
+services:
+  codeanalyzer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: codeanalyzer
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: sleep infinity
