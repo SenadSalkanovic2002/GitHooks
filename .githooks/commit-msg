@@ -8,5 +8,6 @@ if [[ ! "$MSG" =~ ^(FIX|FEAT|DOCS|TEST|CHORE): ]]; then
   exit 1
 fi
 
-echo "✅ Commit sporočilo ustreza pravilom."
+echo " Commit sporočilo ustreza pravilom."
 exit 0
+
