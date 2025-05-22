@@ -1,0 +1,125 @@
+[2025-05-22 12:46:34Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Root': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.credentials'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Root': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO HostContext] Well known config file 'Runner': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.runner'
+[2025-05-22 12:46:34Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-05-22 12:46:34Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.22631.
+[2025-05-22 12:46:34Z INFO Listener] Version: 2.323.0
+[2025-05-22 12:46:34Z INFO Listener] Commit: d8b82f44a9ec0258904d5869ae683c31d5aac299
+[2025-05-22 12:46:34Z INFO Listener] Culture: en-GB
+[2025-05-22 12:46:34Z INFO Listener] UI Culture: en-GB
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Root': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO Listener] Validating directory permissions for: 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO CommandLineParser] Parse
+[2025-05-22 12:46:34Z INFO CommandLineParser] Parsing 1 args
+[2025-05-22 12:46:34Z INFO CommandLineParser] parsing argument
+[2025-05-22 12:46:34Z INFO CommandLineParser] HasArgs: False
+[2025-05-22 12:46:34Z INFO CommandLineParser] Adding Command: run
+[2025-05-22 12:46:34Z INFO Listener] Arguments parsed
+[2025-05-22 12:46:34Z INFO Runner] ExecuteCommand
+[2025-05-22 12:46:34Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin\Runner.Listener.dll
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO ConfigurationStore] binPath: C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Root': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO ConfigurationStore] RootFolder: C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Root': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO HostContext] Well known config file 'Runner': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.runner'
+[2025-05-22 12:46:34Z INFO ConfigurationStore] ConfigFilePath: C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.runner
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Root': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.runner_migrated'
+[2025-05-22 12:46:34Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.runner_migrated
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Root': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.credentials'
+[2025-05-22 12:46:34Z INFO ConfigurationStore] CredFilePath: C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.credentials
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Root': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.credentials_migrated'
+[2025-05-22 12:46:34Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.credentials_migrated
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Root': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO HostContext] Well known config file 'Service': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.service'
+[2025-05-22 12:46:34Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.service
+[2025-05-22 12:46:34Z INFO CommandSettings] Flag 'help': 'False'
+[2025-05-22 12:46:34Z INFO CommandSettings] Flag 'version': 'False'
+[2025-05-22 12:46:34Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-05-22 12:46:34Z INFO CommandSettings] Flag 'check': 'False'
+[2025-05-22 12:46:34Z INFO CommandSettings] Command 'configure': 'False'
+[2025-05-22 12:46:34Z INFO CommandSettings] Command 'remove': 'False'
+[2025-05-22 12:46:34Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-05-22 12:46:34Z INFO ConfigurationManager] LoadSettings
+[2025-05-22 12:46:34Z INFO ConfigurationStore] IsConfigured()
+[2025-05-22 12:46:34Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-22 12:46:34Z INFO ConfigurationManager] Is configured: True
+[2025-05-22 12:46:34Z INFO ConfigurationStore] Read setting file: 311 chars
+[2025-05-22 12:46:34Z INFO ConfigurationManager] Settings Loaded
+[2025-05-22 12:46:34Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-05-22 12:46:34Z INFO ConfigurationStore] IsServiceConfigured: True
+[2025-05-22 12:46:34Z INFO CommandSettings] Command 'run': 'True'
+[2025-05-22 12:46:34Z INFO ConfigurationStore] IsConfigured()
+[2025-05-22 12:46:34Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-22 12:46:34Z INFO ConfigurationManager] Is configured: True
+[2025-05-22 12:46:34Z INFO Runner] Try determine runner startup type base on console redirects.
+[2025-05-22 12:46:34Z INFO Runner] Set runner startup type - Manual
+[2025-05-22 12:46:34Z INFO CommandSettings] Flag 'once': 'False'
+[2025-05-22 12:46:34Z INFO CommandSettings] Flag 'once': 'False'
+[2025-05-22 12:46:34Z INFO Runner] RunAsync
+[2025-05-22 12:46:34Z INFO ConfigurationManager] LoadSettings
+[2025-05-22 12:46:34Z INFO ConfigurationStore] IsConfigured()
+[2025-05-22 12:46:34Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-22 12:46:34Z INFO ConfigurationManager] Is configured: True
+[2025-05-22 12:46:34Z INFO ConfigurationManager] Settings Loaded
+[2025-05-22 12:46:34Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "SENAD",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus14.actions.githubusercontent.com/hZSaElmMbImhC8FHDY2LAuX8xYbjIlKtxIoQG7c52WMG2J3hyA/",
+  "GitHubUrl": "https://github.com/SenadSalkanovic2002/GitHooks",
+  "WorkFolder": "GitHooks"
+}
+[2025-05-22 12:46:34Z INFO MessageListener] Loading Credentials
+[2025-05-22 12:46:34Z INFO ConfigurationStore] HasCredentials()
+[2025-05-22 12:46:34Z INFO ConfigurationStore] stored True
+[2025-05-22 12:46:34Z INFO CredentialManager] GetCredentialProvider
+[2025-05-22 12:46:34Z INFO CredentialManager] Creating type OAuth
+[2025-05-22 12:46:34Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin'
+[2025-05-22 12:46:34Z INFO HostContext] Well known directory 'Root': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner'
+[2025-05-22 12:46:34Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.credentials_rsaparams'
+[2025-05-22 12:46:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.credentials_rsaparams
+[2025-05-22 12:46:34Z INFO MessageListener] Attempt to create session.
+[2025-05-22 12:46:34Z INFO MessageListener] Connecting to the Runner Server...
+[2025-05-22 12:46:34Z INFO RunnerServer] EstablishVssConnection
+[2025-05-22 12:46:34Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-05-22 12:46:34Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-05-22 12:46:34Z INFO RunnerServer] EstablishVssConnection
+[2025-05-22 12:46:34Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-05-22 12:46:34Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-05-22 12:46:34Z INFO RunnerServer] EstablishVssConnection
+[2025-05-22 12:46:34Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-05-22 12:46:34Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-05-22 12:46:35Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-05-22 12:46:35Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-05-22 12:46:35Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-05-22 12:46:35Z INFO MessageListener] VssConnection created
+[2025-05-22 12:46:35Z INFO Terminal] WRITE LINE: 
+[2025-05-22 12:46:35Z INFO Terminal] WRITE LINE: 
+[2025-05-22 12:46:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.credentials_rsaparams
+[2025-05-22 12:46:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.credentials_rsaparams
+[2025-05-22 12:46:36Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-22 12:46:36Z INFO MessageListener] Session created.
+[2025-05-22 12:46:36Z INFO Terminal] WRITE LINE: Current runner version: '2.323.0'
+[2025-05-22 12:46:36Z INFO Terminal] WRITE LINE: 2025-05-22 12:46:36Z: Listening for Jobs
+[2025-05-22 12:46:36Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2025-05-22 12:46:37Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\.credentials_rsaparams
+[2025-05-22 12:46:37Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-22 12:56:39Z WARN GitHubActionsService] Attempt 1 of GET request to https://broker.actions.githubusercontent.com/message?sessionId=4c0ecef5-e092-4950-98ff-0efb78a884a3&status=Online&runnerVersion=2.323.0&os=Windows&architecture=X64&disableUpdate=false failed (Socket Error: ConnectionReset). The operation will be retried in 11.176 seconds.
+[2025-05-22 12:59:32Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelinesghubeus14.actions.githubusercontent.com/hZSaElmMbImhC8FHDY2LAuX8xYbjIlKtxIoQG7c52WMG2J3hyA/_apis/distributedtask/pools/1/messages?sessionId=4c0ecef5-e092-4950-98ff-0efb78a884a3&status=Online&runnerVersion=2.323.0&os=Windows&architecture=X64&disableUpdate=false failed (Socket Error: ConnectionReset). The operation will be retried in 11.115 seconds.
