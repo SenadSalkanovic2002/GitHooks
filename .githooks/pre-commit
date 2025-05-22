@@ -1,8 +1,10 @@
 #!/bin/bash
-#!/bin/bash
 echo "🛠️ Zagon statične analize preko Docker..."
 
 docker compose run --rm codeanalyzer flake8 . || {
     echo "❌ Napaka pri statični analizi"
     exit 1
 }
+
+echo "✅ Statična analiza uspešna."
+exit 0
