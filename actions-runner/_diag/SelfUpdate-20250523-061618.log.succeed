@@ -1,0 +1,20 @@
+[23/05/2025  8:16:18.35] --------whoami-------- 
+senad\legen
+[23/05/2025  8:16:18.38] --------whoami-------- 
+[23/05/2025  8:16:18.38] Waiting for Runner.Listener.exe (31636) to complete 
+Runner.Listener.exe          31636 Console                    1     68,612 K
+[23/05/2025  8:16:18.55] Process 31636 still running, check again after 1 second. 
+[23/05/2025  8:16:19.70] Process 31636 finished running 
+[23/05/2025  8:16:19.70] Sleep 1 more second to make sure process exited 
+[23/05/2025  8:16:20.72] Re-organize folders 
+[23/05/2025  8:16:20.74] move "C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin" "C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin.2.323.0" 
+        1 dir(s) moved.
+[23/05/2025  8:16:20.77] move "C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\externals" "C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\externals.2.323.0" 
+        1 dir(s) moved.
+[23/05/2025  8:16:20.77] Create junction bin folder 
+Junction created for C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin <<===>> C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\bin.2.324.0
+[23/05/2025  8:16:20.78] Create junction externals folder 
+Junction created for C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\externals <<===>> C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\externals.2.324.0
+[23/05/2025  8:16:20.78] Update succeed 
+[23/05/2025  8:16:20.78] update.finished file creation succeed 
+[23/05/2025  8:16:20.79] Rename "C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\_diag\SelfUpdate-20250523-061618.log" to be "C:\Users\legen\OneDrive\Dokumenti\GitHub\GitHooks\actions-runner\_diag\SelfUpdate-20250523-061618.log.succeed" 
